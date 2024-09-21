@@ -1,0 +1,32 @@
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  padding: 0px 30px;
+  justify-content: space-between;
+  opacity: 0;
+}
+
+.footer-icons {
+  width: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+
+
+
+
+@media (max-width: 480px){
+  .footer{
+    opacity: 1;
+  }
+}

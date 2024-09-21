@@ -1,0 +1,18 @@
+p{
+  font-family: Roboto;
+}
+
+body{
+  padding-left: 100px;
+  padding-top: 135px;
+  margin: 0;
+  margin-right: 25px;
+}
+
+@media (max-width:480px ){
+  body{
+    padding-left: 0px;
+    margin: 0;
+    padding-bottom: 60px;
+  }
+}
